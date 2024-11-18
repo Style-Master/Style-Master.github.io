@@ -51,17 +51,17 @@
             <div class="container is-max-desktop has-text-centered">
                 <div class="columns is-centered">
                     <div class="column has-text-centered ">
-                        <!-- <img src="./img/logo.png" style="height:140px; margin-bottom: -10px;"></img> -->
+                        <img src="./image/logo.png" style="height:90px; margin-bottom: -10px;"></img>
                         <h2 class="title is-1 publication-title has-text-centered">
                             Stylize Your Video with Artistic Generation and Translation
                         </h2>
                         <h2 class="title publication-title is-4 has-text-grey"> Anonymous Submission </h2>
 
-
+<!-- 
                         <a href="stylized_video_generation.zip"
                             class="external-link button is-normal is-rounded is-dark">
                             <span>Stylized Video Generation Results</span>
-                        </a>
+                        </a> -->
 
 
                     </div>
@@ -75,7 +75,7 @@
         <div id="cmp-gt-carousel-horizontal" class="carousel results-carousel">
 
             <video muted autoplay="autoplay" loop="loop" width="90%" preload controls>
-                <source src="./video/teaser.mp4" type="video/mp4">
+                <source src="./video/teaser_crop.mp4" type="video/mp4">
             </video>
         </div>
     </div>
@@ -103,37 +103,56 @@
     </script>
 
     <section class="section" style="margin-top: 0; padding-top: 50px;">
+        <div class="hero-body">
+            <div class="container" style="text-align: center; ">
+
+                <h2 class="title is-4" style="text-align: center;">Video Style Transfer <span
+                        style="color: #4FACFA;">with Different Styles</span> </h2>
+                
+
+                <div id="results-carousel-horizontal" class="carousel results-carousel">
+
+                    
+                    <video muted autoplay="autoplay" loop="loop" width="50%" preload controls>
+                        <source src="./video/transfer/dog.mp4" type="video/mp4">
+                    </video>
+                    
+                    <video muted autoplay="autoplay" loop="loop" width="70%" preload controls>
+                        <source src="./video/transfer/car.mp4" type="video/mp4">
+                    </video>
+
+                    
+
+                    <video muted autoplay="autoplay" loop="loop" width="70%" preload controls>
+                        <source src="./video/transfer/younggirl.mp4" type="video/mp4">
+                    </video>
+
+                    
+                </div>
+
+
+            </div>
+        </div>
+
+        <br>
 
         <div class="container" style="text-align: center; ">
             <h2 class="title is-4" style="text-align: center;">Image Style Transfer Result</h2>
 
             <div id="cmp-gt-carousel-horizontal" class="carousel results-carousel">
 
-                <div class="hero-body" style="margin-top: 40px; margin-bottom: -30px;">
-                    <img id="overview" width="100%" src="./image/ours.png" />
+                <div class="hero-body" style="margin-top: 0px; margin-bottom: -30px;">
+                    <img id="overview" width="80%" src="./image/ours.png" />
                 </div>
             </div>
         </div>
 
         <br>
 
-        <div class="container" style="text-align: center; ">
-            <h2 class="title is-4" style="text-align: center;">Stylized Video Generation <span
-                    style="color: #4FACFA;">with Different Style Images</span></h2>
-
-            <div id="cmp-gt-carousel-horizontal" class="carousel results-carousel">
-
-                <video muted autoplay="autoplay" loop="loop" width="100%" preload controls>
-                    <source src="video/diverse_style_images/demo.mp4" type="video/mp4">
-                </video>
-
-            </div>
-        </div>
-
-        <br>
+    
 
         <div class="hero-body">
-            <div class="container" style="text-align: left; ">
+            <div class="container" style="text-align: center; ">
 
                 <h2 class="title is-4" style="text-align: center;">Stylized Video Generation <span
                         style="color: #4FACFA;">with Different Prompts</span> </h2>
@@ -141,96 +160,73 @@
 
                 <div id="results-carousel-horizontal" class="carousel results-carousel">
 
-                    <video muted autoplay="autoplay" loop="loop" width="100%" preload controls>
-                        <source src="./video/diverse_prompts/1.mp4" type="video/mp4">
+                    <video muted autoplay="autoplay" loop="loop" width="50%" preload controls>
+                        <source src="./video/diverse_prompts/fine1.mp4" type="video/mp4">
                     </video>
 
-                    <video muted autoplay="autoplay" loop="loop" width="100%" preload controls>
-                        <source src="./video/diverse_prompts/2.mp4" type="video/mp4">
+                    <video muted autoplay="autoplay" loop="loop" width="50%" preload controls>
+                        <source src="./video/diverse_prompts/green.mp4" type="video/mp4">
                     </video>
 
-                    <video muted autoplay="autoplay" loop="loop" width="100%" preload controls>
-                        <source src="./video/diverse_prompts/3.mp4" type="video/mp4">
+                    <video muted autoplay="autoplay" loop="loop" width="50%" preload controls>
+                        <source src="./video/diverse_prompts/blueyellow.mp4" type="video/mp4">
                     </video>
 
-                    <video muted autoplay="autoplay" loop="loop" width="100%" preload controls>
-                        <source src="./video/diverse_prompts/t1n18.mp4" type="video/mp4">
+                    <video muted autoplay="autoplay" loop="loop" width="50%" preload controls>
+                        <source src="./video/diverse_prompts/oil.mp4" type="video/mp4">
                     </video>
 
-                    <video muted autoplay="autoplay" loop="loop" width="100%" preload controls>
-                        <source src="./video/diverse_prompts/t2n11.mp4" type="video/mp4">
+                    <video muted autoplay="autoplay" loop="loop" width="50%" preload controls>
+                        <source src="./video/diverse_prompts/pencil.mp4" type="video/mp4">
                     </video>
 
-                    <video muted autoplay="autoplay" loop="loop" width="100%" preload controls>
-                        <source src="./video/diverse_prompts/t2n22.mp4" type="video/mp4">
+                    <video muted autoplay="autoplay" loop="loop" width="50%" preload controls>
+                        <source src="./video/diverse_prompts/vangough.mp4" type="video/mp4">
                     </video>
 
-                    <video muted autoplay="autoplay" loop="loop" width="100%" preload controls>
-                        <source src="./video/diverse_prompts/t3n3.mp4" type="video/mp4">
-                    </video>
+                    
 
-                    <video muted autoplay="autoplay" loop="loop" width="100%" preload controls>
-                        <source src="./video/diverse_prompts/t1n13.mp4" type="video/mp4">
-                    </video>
-
-                    <video muted autoplay="autoplay" loop="loop" width="100%" preload controls>
-                        <source src="./video/diverse_prompts/t2n10.mp4" type="video/mp4">
-                    </video>
-
-                    <video muted autoplay="autoplay" loop="loop" width="100%" preload controls>
-                        <source src="./video/diverse_prompts/t2n21.mp4" type="video/mp4">
-                    </video>
-
-                </div>
-
-                <div id="results-carousel-horizontal" class="carousel results-carousel">
-
-                    <video muted autoplay="autoplay" loop="loop" width="100%" preload controls>
-                        <source src="./video/diverse_prompts/t2n7.mp4" type="video/mp4">
-                    </video>
-
-                    <video muted autoplay="autoplay" loop="loop" width="100%" preload controls>
-                        <source src="./video/diverse_prompts/t2n9.mp4" type="video/mp4">
-                    </video>
-
-                    <video muted autoplay="autoplay" loop="loop" width="100%" preload controls>
-                        <source src="./video/diverse_prompts/t3n8.mp4" type="video/mp4">
-                    </video>
-
-                    <video muted autoplay="autoplay" loop="loop" width="100%" preload controls>
-                        <source src="./video/diverse_prompts/t1n6.mp4" type="video/mp4">
-                    </video>
-
-                    <video muted autoplay="autoplay" loop="loop" width="100%" preload controls>
-                        <source src="./video/diverse_prompts/t2n1.mp4" type="video/mp4">
-                    </video>
-
-                    <video muted autoplay="autoplay" loop="loop" width="100%" preload controls>
-                        <source src="./video/diverse_prompts/t2n15.mp4" type="video/mp4">
-                    </video>
-
-                    <video muted autoplay="autoplay" loop="loop" width="100%" preload controls>
-                        <source src="./video/diverse_prompts/t3n1.mp4" type="video/mp4">
-                    </video>
-
-                    <video muted autoplay="autoplay" loop="loop" width="100%" preload controls>
-                        <source src="./video/diverse_prompts/t1n2.mp4" type="video/mp4">
-                    </video>
-
-                    <video muted autoplay="autoplay" loop="loop" width="100%" preload controls>
-                        <source src="./video/diverse_prompts/t3n7.mp4" type="video/mp4">
-                    </video>
-
-                    <video muted autoplay="autoplay" loop="loop" width="100%" preload controls>
-                        <source src="./video/diverse_prompts/t2n17.mp4" type="video/mp4">
-                    </video>
-
+                    
                 </div>
 
 
             </div>
         </div>
 
+
+
+
+
+
+        <br>
+
+
+        <div class="container" style="text-align: center; ">
+            <h2 class="title is-4" style="text-align: center;">Stylized Video Generation <span
+                    style="color: #4FACFA;">with Different Style Images</span></h2>
+
+                <div id="results-carousel-horizontal" class="carousel results-carousel">
+
+                    <video muted autoplay="autoplay" loop="loop" width="50%" preload controls>
+                        <source src="./video/diverse_style_images/different_style_1_crop.mp4" type="video/mp4">
+                    </video>
+
+                    <video muted autoplay="autoplay" loop="loop" width="50%" preload controls>
+                        <source src="./video/diverse_style_images/different_style_2_crop.mp4" type="video/mp4">
+                    </video>
+
+                    <video muted autoplay="autoplay" loop="loop" width="50%" preload controls>
+                        <source src="./video/diverse_style_images/different_style_3_crop.mp4" type="video/mp4">
+                    </video>
+                    
+                    
+                    
+
+
+
+                    
+                </div>
+        </div>
 
 
         <br>
